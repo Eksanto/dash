@@ -121,7 +121,7 @@ def index():
     Y = cat_order['Installs']
     my_colors = 'rgbkymc'
     # bagian ini digunakan untuk membuat kanvas/figure
-    fig = plt.figure(figsize=(9,4),dpi=300)
+    fig = plt.figure(figsize=(8,3),dpi=300)
     fig.add_subplot()
     # bagian ini digunakan untuk membuat bar plot
     plt.barh(X,Y, color=my_colors)
